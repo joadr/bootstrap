@@ -13,13 +13,16 @@ Package.onUse(function(api) {
 	api.versionsFrom('1.0');
 
 	api.use([
+		'meteor-platform',
 		'orionjs:core@0.5.0',
 		'less',
+		'useraccounts:bootstrap@1.2.3'
 		]);
 
 	api.imply([
 		'orionjs:core',
-		'less'
+		'less', 
+		'useraccounts:bootstrap'
 		]);
 
 	api.addFiles([
@@ -27,7 +30,6 @@ Package.onUse(function(api) {
 		'styles/config.less',
 		'styles/dictionary.less',
 		'styles/entities.less',
-		'styles/files.less',
 		'styles/forms.less',
 		'styles/layout.less',
 		'styles/loading.less',

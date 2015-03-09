@@ -1,88 +1,88 @@
 /**
  * adminAccountsInvitation
  */
-Template.adminAccountsInvitation.events = orion.admin.accountsInvitationEvents;
-Template.adminAccountsInvitation.helpers = orion.admin.accountsInvitationHelpers;
+Template.adminAccountsInvitation.events(orion.admin.accountsInvitationEvents);
+Template.adminAccountsInvitation.helpers(orion.admin.accountsInvitationHelpers);
 Template.adminAccountsInvitation.rendered = orion.admin.accountsInvitationRendered;
 
 /**
  * adminAccountsLogin
  */
-Template.adminAccountsLogin.events = orion.admin.accountsLoginEvents;
-Template.adminAccountsLogin.helpers = orion.admin.accountsLoginHelpers;
+Template.adminAccountsLogin.events(orion.admin.accountsLoginEvents);
+Template.adminAccountsLogin.helpers(orion.admin.accountsLoginHelpers);
 
 /**
  * adminAccountsSetup
  */
-Template.adminAccountsSetup.events = orion.admin.accountsSetupEvents;
-Template.adminAccountsSetup.helpers = orion.admin.accountsSetupHelpers;
+Template.adminAccountsSetup.events(orion.admin.accountsSetupEvents);
+Template.adminAccountsSetup.helpers(orion.admin.accountsSetupHelpers);
 Template.adminAccountsSetup.rendered = orion.admin.accountsSetupRendered;
 
 /**
  * adminSidebar
  */
-Template.adminSidebar.events = orion.admin.sidebarEvents;
-Template.adminSidebar.helpers = orion.admin.sidebarHelpers;
+Template.adminSidebar.events(orion.admin.sidebarEvents);
+Template.adminSidebar.helpers(orion.admin.sidebarHelpers);
 
 /**
  * adminConfigUpdate
  */
-Template.adminConfigUpdate.events = orion.admin.configUpdateEvents;
-Template.adminConfigUpdate.helpers = orion.admin.configUpdateHelpers;
+Template.adminConfigUpdate.events(orion.admin.configUpdateEvents);
+Template.adminConfigUpdate.helpers(orion.admin.configUpdateHelpers);
 
 /**
  * adminConfigPassword
  */
-Template.adminConfigPassword.events = orion.admin.configPasswordEvents;
-Template.adminConfigPassword.helpers = orion.admin.configPasswordHelpers;
+Template.adminConfigPassword.events(orion.admin.configPasswordEvents);
+Template.adminConfigPassword.helpers(orion.admin.configPasswordHelpers);
 
 /**
  * adminConfigPasswordInput
  */
-Template.adminConfigPassword.events = orion.admin.configPasswordInputEvents;
-Template.adminConfigPassword.helpers = orion.admin.configPasswordInputHelpers;
-Template.adminConfigPassword.rendered = orion.admin.configPasswordInputRendered;
+Template.adminConfigPasswordInput.events(orion.admin.configPasswordInputEvents);
+Template.adminConfigPasswordInput.helpers(orion.admin.configPasswordInputHelpers);
+Template.adminConfigPasswordInput.rendered = orion.admin.configPasswordInputRendered;
 
 /**
  * adminDictionaryUpdate
  */
-Template.adminDictionaryUpdate.helpers = orion.admin.dictionaryUpdateHelpers;
+Template.adminDictionaryUpdate.helpers(orion.admin.dictionaryUpdateHelpers);
 
 /**
  * adminEntitiesDelete
  */
-Template.adminEntitiesDelete.helpers = orion.admin.entitiesDeleteHelpers;
+Template.adminEntitiesDelete.helpers(orion.admin.entitiesDeleteHelpers);
 
 /**
  * adminEntitiesIndex
  */
-Template.adminEntitiesIndex.events = orion.admin.entitiesIndexEvents;
-Template.adminEntitiesIndex.helpers = orion.admin.entitiesIndexHelpers;
+Template.adminEntitiesIndex.events(orion.admin.entitiesIndexEvents);
+Template.adminEntitiesIndex.helpers(orion.admin.entitiesIndexHelpers);
 Template.adminEntitiesIndex.rendered = orion.admin.entitiesIndexRendered;
 
 /**
  * adminEntitiesUpdate
  */
-Template.adminEntitiesUpdate.events = orion.admin.entitiesUpdateEvents;
-Template.adminEntitiesUpdate.helpers = orion.admin.entitiesUpdateHelpers;
+Template.adminEntitiesUpdate.events(orion.admin.entitiesUpdateEvents);
+Template.adminEntitiesUpdate.helpers(orion.admin.entitiesUpdateHelpers);
 
 /**
  * adminUsersCreate
  */
-Template.adminUsersCreate.events = orion.admin.usersCreateEvents;
-Template.adminUsersCreate.helpers = orion.admin.usersCreateHelpers;
+Template.adminUsersCreate.events(orion.admin.usersCreateEvents);
+Template.adminUsersCreate.helpers(orion.admin.usersCreateHelpers);
 Template.adminUsersCreate.rendered = orion.admin.usersCreateRendered;
 
 /**
  * adminUsersDelete
  */
-Template.adminUsersDelete.events = orion.admin.usersDeleteEvents;
+Template.adminUsersDelete.events(orion.admin.usersDeleteEvents);
 
 /**
  * adminUsersEdit
  */
-Template.adminUsersEdit.events = orion.admin.usersEditEvents;
-Template.adminUsersEdit.helpers = orion.admin.usersEditHelpers;
+Template.adminUsersEdit.events(orion.admin.usersEditEvents);
+Template.adminUsersEdit.helpers(orion.admin.usersEditHelpers);
 Template.adminUsersEdit.rendered = orion.admin.usersEditRendered;
 
 /**
@@ -93,12 +93,12 @@ Template.adminUsersIndex.rendered = orion.admin.usersIndexRendered;
 /**
  * adminUsersIndexUser
  */
-Template.adminUsersIndexUser.helpers = orion.admin.usersIndexUserHelpers;
+Template.adminUsersIndexUser.helpers(orion.admin.usersIndexUserHelpers);
 
 /**
  * adminUsersIndexUserAction
  */
-Template.adminUsersIndexUserAction.events = orion.admin.usersIndexUserActionEvents;
+Template.adminUsersIndexUserAction.events(orion.admin.usersIndexUserActionEvents);
 
 /**
  * Loading
