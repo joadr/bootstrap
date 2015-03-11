@@ -1,8 +1,9 @@
 Package.describe({
 	name: 'orionjs:bootstrap',
-	summary: 'Meteor CMS Styled for bootstrap',
+	summary: 'Orion CMS styled for bootstrap',
 	version: '0.0.1',
-	git: 'https://github.com/orionjs/bootstrap'
+	git: 'https://github.com/orionjs/bootstrap',
+	documentation: 'README.md'
 });
 
 Npm.depends({
