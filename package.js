@@ -1,9 +1,8 @@
 Package.describe({
 	name: 'orionjs:bootstrap',
 	summary: 'Orion CMS styled for bootstrap',
-	version: '0.0.1',
-	git: 'https://github.com/orionjs/bootstrap',
-	documentation: 'README.md'
+	version: '0.0.3',
+	git: 'https://github.com/orionjs/bootstrap'
 });
 
 Npm.depends({
@@ -15,7 +14,7 @@ Package.onUse(function(api) {
 
 	api.use([
 		'meteor-platform',
-		'orionjs:core@0.5.0',
+		'orionjs:core@0.5.5',
 		'less',
 		'useraccounts:bootstrap@1.2.3'
 		]);

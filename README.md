@@ -19,7 +19,7 @@ Navigate to ```/admin``` and create the first user.
 
 #### Read the docs!
 
-Go to the [documentation](http://orion.meteor.com/docs/dictionary) and learn how to be an expert in orion
+Go to the [documentation](https://github.com/orionjs/core) and learn how to be an expert in orion
 
 #### View the example
 
