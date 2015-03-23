@@ -58,13 +58,15 @@
 </template>
 <template name="adminSidebar">
 	<ul class="fa-ul">
-        {{# if doIHavePermission 'dictionary' }}
-            <li class="{{ isActiveRoute regex='adminDictionary' }}">
-                <a href="{{ pathFor 'adminDictionaryUpdate' }}">
-                    <i class="fa fa-li fa-book"></i>
-                    <span class="text">Dictionary</span>
-                </a>
-            </li>
+		{{# if isDictionaryActive }}
+	        {{# if doIHavePermission 'dictionary' }}
+	            <li class="{{ isActiveRoute regex='adminDictionary' }}">
+	                <a href="{{ pathFor 'adminDictionaryUpdate' }}">
+	                    <i class="fa fa-li fa-book"></i>
+	                    <span class="text">Dictionary</span>
+	                </a>
+	            </li>
+	        {{/ if }}
         {{/ if }}
 
         {{# each getEntities }}
